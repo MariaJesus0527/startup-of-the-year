@@ -1,0 +1,56 @@
+body, 
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /* con esto conseguimos que la imagen sea el fondo de pantalla*/
+  /* background: url(header.jpg) no-repeat center center fixed; */
+  background: url(laptop-5582775_640.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3em;
+	color:#F6EBF6;
+}
+
+hr {
+	border-color: #9078AD;
+	border-width: 3px; 
+	max-width: 65px;
+
+}
+
+.buffer {
+	height: 15rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	
+}
+
+.btn-primary {
+
+	/*background-color: #F05F44;*/
+	background-color: #9078AD;
+	border-color: #9078AD;
+}
+
+.btn-primary:hover {
+	background-color: #6C4E90;
+	border-color: #6C4E90;
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+
+}
+
